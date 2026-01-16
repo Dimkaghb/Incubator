@@ -6,7 +6,7 @@ import { WhatToExpect } from "@/components/sections/WhatToExpect";
 import { Speakers } from "@/components/sections/Speakers";
 import { Agenda } from "@/components/sections/Agenda";
 import { Testimonials } from "@/components/sections/Testimonials";
-import { Pricing } from "@/components/sections/Pricing";
+import { EndBlock } from "@/components/sections/EndBlock";
 import { Sponsors } from "@/components/sections/Sponsors";
 import { Faq } from "@/components/sections/Faq";
 
@@ -21,7 +21,7 @@ export default function Home() {
         <Speakers />
         <Agenda />
         <Testimonials />
-        <Pricing />
+        <EndBlock />
         <Sponsors />
         <Faq />
       </main>

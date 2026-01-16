@@ -51,7 +51,7 @@ export function WhatToExpect() {
               {/* Background Image */}
               <div className="absolute inset-0 opacity-60">
                   <img 
-                    src="https://framerusercontent.com/images/pDyTiVHZ2n1aJqmaZWaMJ5LPeTw.png" 
+                    src="https://framerusercontent.com/images/feBvJZF9HpjwounW6pOdnSIGrR4.png" 
                     alt="CTA Background" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
