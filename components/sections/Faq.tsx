@@ -24,16 +24,16 @@ export function Faq() {
                </p>
              </Reveal>
              <Reveal delay={0.6}>
-               <Button variant="link" className="text-black hover:text-[#7B50AD] p-0 text-lg">Contact Admissions</Button>
+               <Button variant="link" className="text-black hover:text-[#7B50AD] p-0 text-lg">Contact Us</Button>
              </Reveal>
           </div>
 
           <div className="md:col-span-8 flex flex-col gap-4">
              <FaqItem question="Do I need a technical co-founder?" answer="Not necessarily. While it helps, we accept solo non-technical founders if you have a strong domain expertise and a plan to build." delay={0.2} />
              <FaqItem question="Is it really 100% free?" answer="Yes. We do not charge any program fees and we do not take any equity in your company. We are funded by corporate partners and grants." delay={0.3} />
-             <FaqItem question="Can I participate remotely?" answer="Yes, OpenLab is a hybrid program. We have a physical hub in London, but all sessions are streamed and mentorship can be done virtually." delay={0.4} />
+             <FaqItem question="Can I participate remotely?" answer="Yes, OpenLab is a hybrid program. All sessions are streamed and mentorship can be done virtually." delay={0.4} />
              <FaqItem question="What stage should my startup be?" answer="We focus on early-stage startups. You might have just an idea, a prototype, or a live MVP. If you're raising Series A, you're likely too advanced for us." delay={0.5} />
-             <FaqItem question="What happens after the 12 weeks?" answer="You become part of our alumni network for life. We also host a Demo Day where you can pitch to selected angel investors and VCs." delay={0.6} />
+             <FaqItem question="What happens after the 8 weeks?" answer="You become part of our alumni network for life. We also host a Demo Day where you can pitch to selected angel investors and VCs." delay={0.6} />
           </div>
        </div>
     </Section>

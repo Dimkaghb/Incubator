@@ -8,18 +8,18 @@ export function Testimonials() {
   const testimonials = [
     {
       text: "“OpenLab was the catalyst we needed. The mentorship helped us pivot our product and close our seed round within 3 months of graduating.”",
-      name: "Alina Chen",
-      role: "Founder, New Futures"
+      name: "Igor Blink",
+      role: "Founder and CEO, TabAI"
     },
     {
       text: "“The network is incredible. Being able to message a mentor and get a response in minutes saved us months of trial and error.”",
-      name: "Isabella Conte",
-      role: "CEO, Brightseed"
+      name: "Milan Gorislavets",
+      role: "Founder and CEO, Tilt.ai"
     },
     {
       text: "“Unlike other incubators, OpenLab genuinely put our success first. No equity, no fees, just pure value and support.”",
-      name: "Janine Aster",
-      role: "Co-founder, Infinity"
+      name: "Zhan B.",
+      role: "Founder and CEO, Catops"
     }
   ];
 

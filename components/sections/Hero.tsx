@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 function Squiggle() {
   return (
@@ -51,9 +52,11 @@ export function Hero() {
              transition={{ duration: 0.5, delay: 0.6 }}
              className="mt-8"
           >
-            <Button size="lg" variant="primary">
-              Apply for Cohort
-            </Button>
+            <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
+              <Button size="lg" variant="primary">
+                Apply for OpenLab 2025
+              </Button>
+            </Link>
           </motion.div>
         </div>
 
@@ -63,9 +66,9 @@ export function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="absolute bottom-10 left-0 right-0 px-6 md:px-12 max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between text-lg md:text-xl font-medium text-zinc-400 gap-4"
         >
-          <div>Applications Close: Mar 01</div>
-          <div>Remote & On-site</div>
-          <div>Global Cohort</div>
+          <div>Applications Close: Jan 30</div>
+          <div>Remote</div>
+          <div>Global</div>
         </motion.div>
     </section>
   );

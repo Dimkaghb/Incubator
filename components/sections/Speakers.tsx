@@ -15,15 +15,12 @@ export function Speakers() {
              <Label variant="dark">MENTORS</Label>
            </Reveal>
            <Reveal delay={0.2}>
-             <h2 className="text-6xl md:text-8xl font-semibold tracking-tight">World-class mentors</h2>
+             <h2 className="text-6xl md:text-8xl font-semibold tracking-tight">Inspiring mentors</h2>
            </Reveal>
            <Reveal delay={0.4}>
              <p className="text-xl md:text-2xl font-medium text-zinc-600">
-               Learn from successful founders, investors, and operators who have been there before.
-             </p>
-           </Reveal>
-           <Reveal delay={0.6}>
-             <Button variant="link" className="text-black hover:text-[#7B50AD] p-0 text-xl">Meet all mentors</Button>
+               Learn from successful founders, investors, and software engineers.
+             </p> 
            </Reveal>
         </div>
 

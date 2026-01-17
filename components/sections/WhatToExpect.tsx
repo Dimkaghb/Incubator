@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/Label";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export function WhatToExpect() {
   return (
@@ -21,7 +22,7 @@ export function WhatToExpect() {
            </div>
            <Reveal className="flex items-end justify-end pb-4" delay={0.5}>
              <p className="text-xl md:text-2xl font-medium max-w-sm text-right">
-               A 12-week intensive program designed to fast-track your startup from idea to investment.
+               A 8-week intensive program designed to fast-track your startup from idea to investment.
              </p>
            </Reveal>
         </div>
@@ -66,7 +67,9 @@ export function WhatToExpect() {
               </div>
 
               <div className="relative z-10">
-                <Button variant="primary" fullWidth>Apply for Cohort</Button>
+                <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
+                  <Button variant="primary" fullWidth>Apply</Button>
+                </Link>
               </div>
             </div>
           </Reveal>

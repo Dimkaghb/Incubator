@@ -20,16 +20,13 @@ export function Sponsors() {
                  </h3>
                </Reveal>
             </div>
-            <div className="md:text-right pb-2">
-               <Reveal delay={0.4}>
-                 <Button variant="link" className="text-black hover:text-[#7B50AD] p-0 text-xl">All sponsors</Button>
-               </Reveal>
+            <div className="md:text-right pb-2">  
             </div>
          </div>
 
          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {/* Sponsor Cards Placeholder */}
-            {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+            {[1, 2, 3].map((i) => (
                <Reveal key={i} delay={0.1 * i} width="100%">
                  <div className="aspect-square bg-zinc-100 rounded-xl flex items-center justify-center p-8 grayscale hover:grayscale-0 transition-all cursor-pointer h-full w-full">
                     <div className="w-16 h-16 bg-zinc-300 rounded-full" /> {/* Logo Placeholder */}

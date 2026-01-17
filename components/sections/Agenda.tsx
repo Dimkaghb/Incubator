@@ -11,7 +11,7 @@ export function Agenda() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 border-b border-white/10 pb-12">
            <div className="flex flex-col gap-8">
              <Reveal>
-               <Label variant="light">12-WEEK PROGRAM</Label>
+               <Label variant="light">8-WEEK PROGRAM</Label>
              </Reveal>
              <Reveal delay={0.2}>
                <h2 className="text-6xl md:text-8xl font-semibold tracking-tight text-white">Curriculum</h2>
@@ -22,12 +22,12 @@ export function Agenda() {
 
         {/* Schedule List */}
         <div className="flex flex-col">
-           <ScheduleItem time="Week 1-2" title="Ideation & Validation" speaker="Problem Statement, User Research" tag="Foundation" delay={0.2} />
-           <ScheduleItem time="Week 3-5" title="Building the MVP" speaker="No-code, Prototyping, First Code" tag="Build" delay={0.3} />
-           <ScheduleItem time="Week 6-8" title="Go-to-Market Strategy" speaker="Marketing, Sales, Growth Loops" tag="Growth" delay={0.4} />
-           <ScheduleItem time="Week 9-10" title="Business Model & Finance" speaker="Monetization, Unit Economics" tag="Business" delay={0.5} />
-           <ScheduleItem time="Week 11" title="Pitch Deck Prep" speaker="Storytelling, Design, Feedback" tag="Pitch" delay={0.6} />
-           <ScheduleItem time="Week 12" title="Demo Day" speaker="Live Pitches to Investors" tag="Finale" delay={0.7} />
+           <ScheduleItem time="Week 1" title="Ideation & Validation" speaker="Problem Statement, User Research" tag="Foundation" delay={0.2} />
+           <ScheduleItem time="Week 2-4" title="Building the MVP" speaker="No-code, Prototyping, First Code" tag="Build" delay={0.3} />
+           <ScheduleItem time="Week 5" title="Go-to-Market Strategy" speaker="Marketing, Sales, Growth Loops" tag="Growth" delay={0.4} />
+           <ScheduleItem time="Week 6" title="Business Model & Finance" speaker="Monetization, Unit Economics" tag="Business" delay={0.5} />
+           <ScheduleItem time="Week 7" title="Pitch Deck Prep" speaker="Storytelling, Design, Feedback" tag="Pitch" delay={0.6} />
+           <ScheduleItem time="Week 8" title="Demo Day" speaker="Live Pitches to Investors" tag="Finale" delay={0.7} />
         </div>
       </div>
     </Section>
