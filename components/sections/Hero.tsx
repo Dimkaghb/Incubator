@@ -54,7 +54,7 @@ export function Hero() {
           >
             <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
               <Button size="lg" variant="primary">
-                Apply for OpenLab 2025
+                Apply for OpenLab 2026
               </Button>
             </Link>
           </motion.div>

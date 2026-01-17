@@ -3,11 +3,9 @@ import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
 import { WhatToExpect } from "@/components/sections/WhatToExpect";
-import { Speakers } from "@/components/sections/Speakers";
 import { Agenda } from "@/components/sections/Agenda";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { EndBlock } from "@/components/sections/EndBlock";
-import { Sponsors } from "@/components/sections/Sponsors";
 import { Faq } from "@/components/sections/Faq";
 
 export default function Home() {
@@ -18,11 +16,9 @@ export default function Home() {
         <Hero />
         <About />
         <WhatToExpect />
-        <Speakers />
         <Agenda />
         <Testimonials />
         <EndBlock />
-        <Sponsors />
         <Faq />
       </main>
       <Footer />

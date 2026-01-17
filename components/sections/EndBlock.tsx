@@ -35,7 +35,7 @@ export function EndBlock() {
         
         <Reveal delay={0.3}>
           <p className="text-xl md:text-2xl font-medium text-zinc-100">
-            Secure your spot for OpenLab 2025 now.
+            Secure your spot for OpenLab 2026 now.
           </p>
         </Reveal>
 

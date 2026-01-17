@@ -9,10 +9,8 @@ export function Navbar() {
       </Link>
       
       <div className="hidden md:flex items-center gap-10">
-        <Link href="#mentors" className="text-sm font-medium uppercase tracking-wider text-white/70 hover:text-[#D6B3FF] transition-colors">Mentors</Link>
         <Link href="#curriculum" className="text-sm font-medium uppercase tracking-wider text-white/70 hover:text-[#D6B3FF] transition-colors">Curriculum</Link>
         <Link href="#perks" className="text-sm font-medium uppercase tracking-wider text-white/70 hover:text-[#D6B3FF] transition-colors">Perks</Link>
-        <Link href="#partners" className="text-sm font-medium uppercase tracking-wider text-white/70 hover:text-[#D6B3FF] transition-colors">Partners</Link>
       </div>
 
       <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
