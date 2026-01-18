@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 function Squiggle() {
   return (
@@ -53,8 +54,9 @@ export function Hero() {
              className="mt-8"
           >
             <Link href="https://discord.gg/pn2dns3e" target="_blank">
-              <Button size="lg" variant="primary">
-                Apply for OpenLab 2026
+              <Button size="lg" variant="primary" className="flex items-center gap-3">
+                <DiscordIcon className="w-6 h-6" />
+                Join OpenLab 2025
               </Button>
             </Link>
           </motion.div>

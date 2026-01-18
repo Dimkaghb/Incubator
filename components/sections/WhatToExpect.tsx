@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export function WhatToExpect() {
   return (
@@ -68,7 +69,10 @@ export function WhatToExpect() {
 
               <div className="relative z-10">
                 <Link href="https://discord.gg/pn2dns3e" target="_blank">
-                  <Button variant="primary" fullWidth>Apply</Button>
+                  <Button variant="primary" fullWidth className="flex items-center justify-center gap-2">
+                    <DiscordIcon className="w-5 h-5" />
+                    Join
+                  </Button>
                 </Link>
               </div>
             </div>

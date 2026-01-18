@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export function Navbar() {
   return (
@@ -14,8 +15,9 @@ export function Navbar() {
       </div>
 
       <Link href="https://discord.gg/pn2dns3e" target="_blank">
-        <Button variant="link" className="text-white hover:text-[#D6B3FF]">
-          Apply Now
+        <Button variant="link" className="text-white hover:text-[#D6B3FF] flex items-center gap-2">
+          <DiscordIcon className="w-5 h-5" />
+          Join
         </Button>
       </Link>
     </nav>

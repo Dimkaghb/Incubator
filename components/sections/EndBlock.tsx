@@ -1,9 +1,8 @@
-"use client";
-
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import Link from "next/link";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export function EndBlock() {
   return (
@@ -35,14 +34,15 @@ export function EndBlock() {
         
         <Reveal delay={0.3}>
           <p className="text-xl md:text-2xl font-medium text-zinc-100">
-            Secure your spot for OpenLab 2026 now.
+            Secure your spot for OpenLab 2025 now.
           </p>
         </Reveal>
 
         <Reveal delay={0.4}>
           <Link href="https://discord.gg/pn2dns3e" target="_blank">
-            <Button size="lg" className="mt-4 px-8 py-6 text-lg relative z-20">
-              <span className="mr-2">→</span> Get Started
+            <Button size="lg" className="mt-4 px-8 py-6 text-lg relative z-20 flex items-center gap-3">
+              <DiscordIcon className="w-6 h-6" />
+              Join
             </Button>
           </Link>
         </Reveal>
