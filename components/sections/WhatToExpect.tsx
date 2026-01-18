@@ -23,7 +23,7 @@ export function WhatToExpect() {
            </div>
            <Reveal className="flex items-end justify-end pb-4" delay={0.5}>
              <p className="text-xl md:text-2xl font-medium max-w-sm text-right">
-               A 8-week intensive program designed to fast-track your startup from idea to investment.
+               A 4-week intensive program designed to fast-track your startup from idea to investment.
              </p>
            </Reveal>
         </div>
