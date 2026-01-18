@@ -40,7 +40,7 @@ export function EndBlock() {
         </Reveal>
 
         <Reveal delay={0.4}>
-          <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
+          <Link href="https://discord.gg/pn2dns3e" target="_blank">
             <Button size="lg" className="mt-4 px-8 py-6 text-lg relative z-20">
               <span className="mr-2">→</span> Get Started
             </Button>

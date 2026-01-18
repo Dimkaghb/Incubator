@@ -67,7 +67,7 @@ export function WhatToExpect() {
               </div>
 
               <div className="relative z-10">
-                <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
+                <Link href="https://discord.gg/pn2dns3e" target="_blank">
                   <Button variant="primary" fullWidth>Apply</Button>
                 </Link>
               </div>

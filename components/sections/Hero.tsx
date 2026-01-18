@@ -52,7 +52,7 @@ export function Hero() {
              transition={{ duration: 0.5, delay: 0.6 }}
              className="mt-8"
           >
-            <Link href="https://form.typeform.com/to/WvG1cXe7" target="_blank">
+            <Link href="https://discord.gg/pn2dns3e" target="_blank">
               <Button size="lg" variant="primary">
                 Apply for OpenLab 2026
               </Button>
