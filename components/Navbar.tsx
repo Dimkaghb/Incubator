@@ -1,11 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export function Navbar() {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-8 transition-all duration-300">
-      <Link href="/" className="text-xl font-bold tracking-tight text-white z-50">
+      <Link href="/" className="flex items-center gap-2 text-xl font-bold tracking-tight text-white z-50">
+        <Image 
+          src="/logo.png" 
+          alt="OpenLab Logo" 
+          width={32} 
+          height={32} 
+          className="pointer-events-none select-none w-8 h-8 object-contain"
+        />
         OpenLab
       </Link>
       
