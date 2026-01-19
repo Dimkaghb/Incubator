@@ -7,6 +7,7 @@ import { Agenda } from "@/components/sections/Agenda";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { EndBlock } from "@/components/sections/EndBlock";
 import { Faq } from "@/components/sections/Faq";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Faq />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
