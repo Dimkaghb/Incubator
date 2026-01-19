@@ -2,6 +2,7 @@ import { Section } from "@/components/ui/Section";
 import { Label } from "@/components/ui/Label";
 import { Counter } from "@/components/ui/Counter";
 import { Reveal } from "@/components/ui/Reveal";
+import { TextReveal } from "@/components/ui/text-reveal";
 
 export function About() {
   return (
@@ -11,11 +12,14 @@ export function About() {
           <Label variant="dark">ABOUT</Label>
         </Reveal>
         
-        <Reveal className="col-span-1 md:col-span-3" delay={0.4}>
-          <h3 className="text-3xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight text-zinc-400">
-            Where ambitious <span className="text-black font-bold">founders, creatives, and technologists</span> come together to <span className="text-black font-bold">reimagine what progress looks like.</span>
-          </h3>
-        </Reveal>
+        <div className="col-span-1 md:col-span-3">
+          <TextReveal 
+            className="h-[120vh]"
+            textClassName="text-3xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight text-zinc-400"
+          >
+            Where ambitious founders, creatives, and technologists come together to reimagine what progress looks like.
+          </TextReveal>
+        </div>
       </div>
 
       <div className="mt-24 w-full grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 border-t border-black/10 pt-16 items-start">
