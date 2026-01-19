@@ -9,11 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@vercel/analytics": "^1.6.1",
-=======
     "class-variance-authority": "^0.7.1",
->>>>>>> bd43f2773fee6ea31b2ff123c9cda344dcdaee60
     "clsx": "^2.1.1",
     "framer-motion": "^12.26.2",
     "lucide-react": "^0.562.0",
